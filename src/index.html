@@ -63,26 +63,37 @@
 
     <div class="what_can_i_do">
         <h3>ЧТО Я УМЕЮ</h3>
-        <table>
-            <tr>
-                <th><img src=""></th>
-                <th><img src=""></th>
-                <th><img src=""></th>
-                <th><img src=""></th>
-            </tr>
-            <tr>
-                <th>WEB-design</th>
-                <th>Development for WEB</th>
-                <th>C++ development</th>
-                <th>Python/bash scripts maker</th>
-            </tr>
-            <tr>
-                <th>что-то похожее на красивый текст о вэб дизайне</th>
-                <th>красивые слова о том какой я пездатый вэб программист(нет)</th>
-                <th>слова о том что если нужен уберпроизводительный софт - это ко мне</th>
-                <th>а может тебе, пользователь, нужны скрипты, может тебе хочется по-красивому парсить сайты?</th>
-            </tr>
-        </table>
+        <div class="table_web">
+            <img src="">
+            <h5>WEB-design</h5>
+            <span>
+                Lorem ipsum dolor sit amet.
+            </span>
+        </div>
+
+        <div class="table_web_dev">
+            <img src=""></th>
+            <h5>Development for WEB</h5>
+            <span>
+                Lorem ipsum dolor sit amet consectetur.
+            </span>
+        </div>
+
+        <div class="table_cpp">
+            <img src=""></th>
+            <h5>C++ development</h5>
+            <span>
+                Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </span>
+        </div>
+
+        <div class="table_python">
+            <img src=""></th>
+            <h5>Python/bash scripts maker</h5>
+            <span>
+                Lorem ipsum dolor sit amet consectetur.
+            </span>
+        </div>
 
     </div>
 
@@ -96,33 +107,32 @@
 
     <div class="pricings">
         <h3>Расчет стоимости</h3>
-        <table>
-            <tr>
-                <th>
-                    <label for="type_of_website">Выберите тип сайта</label>
-                    <select name="type_of_website">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>
-                </th>
-                <th>
-                    <label for="design">Выберите лучний для Вас дизайн</label>
-                    <select name="design">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>
-                </th>
-                <th>
-                    <label for="adaptability">Удобность?</label>
-                    <select name="design">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>    
-                </th>
-        </table>
+
+        <div class="type_of_website">
+            <label for="type_of_website">Выберите тип сайта</label>
+            <select name="type_of_website">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        <div class="type_of_design">
+            <label for="type_of_design">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </label>
+        </div>
+
+        <div class="type_of_adaptability">
+            <label for="type_of_adaptability">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </label>
+        </div>
+       
 
         <span>Стоимость</span>
         <span>Сроки</span>
@@ -130,26 +140,30 @@
 
     <div class="statistics">
         <h3>Немного статистики</h3>
-        <table>
-            <tr>
-                <th><img src=""></th>
-                <th><img src=""></th>
-                <th><img src=""></th>
-                <th><img src=""></th>
-            </tr>
-            <tr>
-                <th>number of__happy_clients</th>
-                <th>number of__hours</th>
-                <th>number of__done_sites</th>
-                <th>number of__rewards</th>
-            </tr>
-            <tr>
-                <th>счастливых клиентов</th>
-                <th>часов работы</th>
-                <th>выполненных проектов</th>
-                <th>наград получено</th>
-            </tr>
-        </table>
+        <div class="chart_statistics_clients">
+            <img src=""></th>
+            <span>number_of_happy_clients</span>
+            <span>счастливых клиентов</span>
+        </div>
+
+        <div class="chart_statistics_hours">
+            <img src=""></th>
+            <span>number_of_hours_of_work</span>
+            <span>часов работы</span>
+        </div>
+
+        <div class="chart_statistics_completed_sites">
+            <img src=""></th>
+            <span>number_of_completed_sites</span>
+            <span>выполненных сайтов</span>
+        </div>
+
+        <div class="chart_statistics_rewards">
+            <img src=""></th>
+            <span>number_of_rewards</span>
+            <span>наград получено</span>
+        </div>
+   
     </div>
 
     <div class="rewiews">
@@ -161,18 +175,19 @@
 
     <div class="contact_me">
         <h3>Мои контакты</h3>
-            <table>
-                <tr>
-                    <th><img src=""></th>
-                    <th><img src=""></th>
-                    <th><img src=""></th>
-                </tr>
-                <tr>
-                    <th>location</th>
-                    <th>email</th>
-                    <th>phone_number</th>
-                </tr>
-            </table>
+            <div class="chart_contact_me_location">
+                <img src="">
+                <span>location</span>
+            </div>
+            <div class="chart_contact_me_email">
+                <img src="">
+                <span>email</span>
+            </div>
+            <div class="chart_contact_me_phone_number">
+                <img src="">
+                <span>phone_number</span>
+            </div>
+          
         <h5>Напишите мне сообщение</h5>
         <input type="text"  value="Ваше имя">
         <input type="email" value="email@example.com">
